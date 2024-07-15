@@ -1,6 +1,6 @@
 # Business Card React Project
 
-![Business Card Preview](path/to/your/image.png)
+![Business Card Preview](https://github.com/SharookMohamed/business-Card--using-react/blob/master/assets/card-img2.png?raw=true)
 
 ## Overview
 
