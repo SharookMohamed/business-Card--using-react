@@ -1,5 +1,7 @@
 # Business Card React Project
 
+
+![Business Card Preview](https://github.com/SharookMohamed/business-Card--using-react/blob/master/assets/card-img1.png?raw=true)
 ![Business Card Preview](https://github.com/SharookMohamed/business-Card--using-react/blob/master/assets/card-img2.png?raw=true)
 
 ## Overview
