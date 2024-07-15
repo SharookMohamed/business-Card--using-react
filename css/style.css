@@ -1,0 +1,112 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+button {
+  background: none;
+  border: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+.Bussiness-Card {
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #1a1b21;
+}
+.main-image {
+  width: 100%;
+  height: fit-content;
+  aspect-ratio: 3/3.7;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.info-name,
+.info-job,
+.info-website,
+.bttn-txt,
+.content-bio,
+.content-head {
+  font-family: monospace;
+
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.8px;
+}
+.info-name {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.info-job {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.info-website {
+  display: block;
+  font-size: 12px;
+}
+.bttn-flex-info {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  margin: 10px 20px 20px;
+}
+.Linkedin--bttn,
+.email-bttn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 4px;
+  width: 50%;
+}
+.email-bttn {
+  background-color: #fff;
+}
+.Linkedin--bttn {
+  background-color: #5093e2;
+}
+.email-bttn .bttn-txt {
+  color: #1a1b21;
+}
+.bttn-txt {
+  font-weight: 100;
+  font-size: 11px;
+}
+.about--content {
+  margin: 20px;
+}
+.content-bio {
+  font-size: 12px;
+  font-size: 400;
+  text-align: left;
+  margin: 5px 0;
+  line-height: 1.7;
+}
+.content-head {
+  font-size: 20px;
+  font-size: 600;
+  text-align: left;
+}
+footer{
+  width: 100%;
+  max-width: 300px;
+  background-color: #161619;
+  border-radius: 0 0 5px 5px;
+}
+.footer-flex{
+  padding: 20px 30px 5px;
+  display: flex;
+  justify-content: space-between;  
+}
+button,a{
+  cursor: pointer;
+}
+.footer-flex img{
+  object-fit: contain;
+}
